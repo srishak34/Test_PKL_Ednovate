@@ -55,8 +55,8 @@ table td,th
 img {
   width: 7cm;
   height: 10cm;
- </style>
 }
+ </style>
 </head>
 <body>
 <a href="index2.php" class="menu">BERANDA</a> ||
@@ -91,7 +91,7 @@ img {
   <td><?php echo $r['penulis'] ?></td>
   <td><?php echo $r['hargajual'] ?></td>
   <td>
-   <a href="edit.php?id=<?php echo $r['idbuku'] ?>">Edit</a> ||
+   <a href="ubahdata.php?id=<?php echo $r['idbuku'] ?>">Edit</a> ||
    <a href="delete.php?id=<?php echo $r['idbuku'] ?>" onClick='return confirm("Apakah Ada yakin menghapus?")'>Hapus</a>
   </td>
  </tr>
